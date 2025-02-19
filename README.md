@@ -1,4 +1,4 @@
-# **YouTube Subscription Transfer Tool** 🚀  
+![2](https://github.com/user-attachments/assets/6e4f171e-a401-4b6d-8edd-a5d01698f75a)# **YouTube Subscription Transfer Tool** 🚀  
 Easily transfer YouTube subscriptions from one account to another using the **YouTube Data API v3** and **Google OAuth 2.0**.  
 
 ## **📌 Features**  
@@ -10,38 +10,41 @@ Easily transfer YouTube subscriptions from one account to another using the **Yo
 
 ---
 
-## **🔧 Setup & Installation**  
-### **1️⃣ Clone the Repository**  
-Open a terminal and run:  
+1️⃣ Install the Required Tools
+✅ Install Python (if you haven’t already)
+Download Python from the official website: https://www.python.org/downloads/
+Install it, making sure to check the box "Add Python to PATH" during installation.
+Open Command Prompt (cmd) or PowerShell and type:
 ```sh
-git clone https://github.com/yourusername/YouTube-Subscription-Transfer.git
-cd YouTube-Subscription-Transfer
+python --version
 ```
 
-### **2️⃣ Install Dependencies**  
-Make sure you have **Python 3.10+**, then install required libraries:  
+✅ Install Required Python Libraries
+1. Open Command Prompt (cmd) / PowerShell.
+2. Navigate to the folder where the script is stored using cd (Change Directory):
+```sh
+cd path\to\your\YouTube-Subscription-Transfer
+```
+3. pip install -r requirements.txt
 ```sh
 pip install -r requirements.txt
 ```
 
-### **3️⃣ Set Up Google API Credentials**  
-1. Go to [Google Cloud Console](https://console.cloud.google.com/)  
-2. Create a new project  
-3. Enable the **YouTube Data API v3**  
-4. Create **OAuth 2.0 credentials**  
-5. Download `client_secrets.json` and place it in the project folder  
+2️⃣ Get Google API Credentials
+✅ Create API Credentials on Google Cloud
+1. Go to Google Cloud Console (https://console.cloud.google.com)
+2. Create a new project
+   ![1](https://github.com/user-attachments/assets/da2832b7-5927-4fb3-a7ea-8d4ebd2ce2e5)
+   ![2](https://github.com/user-attachments/assets/c7fe3bc8-6891-4686-b8cf-7831ff14b831)
 
-### **4️⃣ Run the Script**  
-```sh
-python transfer_subscriptions.py
-```
-- The script will open a browser to authenticate the **source account**.  
-- After logging in, it will **fetch all subscribed channels**.  
-- Then, it will ask you to authenticate the **target account** to subscribe to the same channels.  
+   
+   
+4. Enable the YouTube Data API v3
 
----
 
-## **📜 License**  
-This project is open-source under the **MIT License**. Feel free to use, modify, and improve! 🚀  
-
+5. Go to APIs & Services > Credentials
+6. Click Create Credentials → Select OAuth Client ID
+7. Choose Desktop App and create it
+8. Download the client_secrets.json file
+9. Move this file into the YouTube-Subscription-Transfer folder
 
