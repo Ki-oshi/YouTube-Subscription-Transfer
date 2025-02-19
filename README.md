@@ -48,6 +48,4 @@ python transfer_subscriptions.py
 ## **📜 License**  
 This project is open-source under the **MIT License**. Feel free to use, modify, and improve! 🚀  
 
----
 
-This README gives clear instructions while keeping things simple. Let me know if you want any edits! 🔥
