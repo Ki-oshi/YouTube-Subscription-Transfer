@@ -1,5 +1,3 @@
-Your **README.md** should explain everything someone needs to understand and use your YouTube Subscription Transfer script. Here’s a solid template:  
-
 ---
 
 # **YouTube Subscription Transfer Tool** 🚀  
