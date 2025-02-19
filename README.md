@@ -12,8 +12,6 @@ Easily transfer YouTube subscriptions from one account to another using the **Yo
 
 
 ## **📌 Installation**  
-
-
 1️⃣ Install the Required Tools
 ✅ Install Python (if you haven’t already)
 Download Python from the official website: https://www.python.org/downloads/
