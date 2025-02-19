@@ -1,5 +1,3 @@
----
-
 # **YouTube Subscription Transfer Tool** 🚀  
 Easily transfer YouTube subscriptions from one account to another using the **YouTube Data API v3** and **Google OAuth 2.0**.  
 
