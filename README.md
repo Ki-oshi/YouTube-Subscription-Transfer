@@ -96,5 +96,6 @@ The script will show progress messages:
 📤 Subscribing to channels...
 ✅ Transfer Complete!
 ```
-Once done, open YouTube on the target account and check the subscriptions.
-🎯 Done! Your YouTube subscriptions have now been successfully transferred to the new account. 🎉
+Once done, open YouTube on the target account and check the subscriptions.🎯 
+
+Done! Your YouTube subscriptions have now been successfully transferred to the new account. 🎉
